@@ -39,7 +39,7 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    if (window.location.pathname === '/admin') setIsAdminOpen(true);
+    if ((window.location.pathname.includes('admin') || window.location.hash.includes('admin'))) setIsAdminOpen(true);
   }, []);
 
   const handleScrollTo = (id: string) => {
