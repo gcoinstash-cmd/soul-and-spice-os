@@ -108,7 +108,7 @@ export default function App() {
               <span className="font-sans text-xs tracking-[0.3em] text-white font-bold block uppercase">
                 SOUL &amp; SPICE
               </span>
-              <p className="text-[11px] text-[#8E8E93] font-sans font-light leading-relaxed max-w-xs">
+              <p className="text-xs font-semibold text-[#8E8E93] font-sans font-light leading-relaxed max-w-xs">
                 An elevated private kitchen and contemporary Southern culinary archive. We construct elegant dining environments, wood-fired heritage plates, and bespoke catering configurations that redefine comfort gastronomy.
               </p>
             </div>
@@ -118,7 +118,7 @@ export default function App() {
               <span className="font-sans text-[9px] tracking-[0.25em] text-[#AEAED2] uppercase font-bold block">
                 RESTAURANT DIRECTORY
               </span>
-              <div className="flex flex-col space-y-2 text-[11px] font-sans">
+              <div className="flex flex-col space-y-2 text-xs font-semibold font-sans">
                 <button
                   onClick={() => handleScrollTo('philosophy')}
                   className="text-left text-[#8E8E93] hover:text-white transition-colors cursor-pointer uppercase tracking-wider py-0 bg-transparent h-auto"
@@ -157,7 +157,7 @@ export default function App() {
               <span className="font-sans text-[9px] tracking-[0.25em] text-[#AEAED2] uppercase font-bold block">
                 RESERVATION TIMES
               </span>
-              <div className="space-y-2 text-[11px] text-[#8E8E93] font-light leading-relaxed font-sans">
+              <div className="space-y-2 text-xs font-semibold text-[#8E8E93] font-light leading-relaxed font-sans">
                 <div>
                   <p className="text-white font-semibold uppercase tracking-wider text-[9px] mb-0.5">CHICAGO TABLE:</p>
                   <p>1100 S. Michigan Avenue, Chicago</p>
@@ -175,7 +175,7 @@ export default function App() {
               <span className="font-sans text-[9px] tracking-[0.25em] text-[#AEAED2] uppercase font-bold block">
                 THE SEASONAL DISPATCH
               </span>
-              <p className="text-[11px] text-[#8E8E93] font-sans font-light leading-relaxed">
+              <p className="text-xs font-semibold text-[#8E8E93] font-sans font-light leading-relaxed">
                 Register your email address to acquire prioritized table booking releases, tasting menus, and secret culinary dispatches.
               </p>
               
@@ -215,7 +215,7 @@ export default function App() {
           <div className="border-t border-white/5 w-full my-8" />
 
           {/* Legal Navigation Subbar */}
-          <div className="flex flex-col lg:flex-row justify-between items-center text-[10px] text-[#8E8E93] space-y-6 lg:space-y-0 font-sans">
+          <div className="flex flex-col lg:flex-row justify-between items-center text-xs font-semibold tracking-wider text-[#8E8E93] space-y-6 lg:space-y-0 font-sans">
             
             {/* Legal Alignment Links */}
             <div className="flex flex-wrap justify-center lg:justify-start gap-x-8 gap-y-2 uppercase tracking-widest font-sans font-medium text-[9px]">

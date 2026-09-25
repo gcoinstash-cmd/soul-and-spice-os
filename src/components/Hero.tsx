@@ -58,20 +58,20 @@ export function Hero({ onExploreMenu, onReserveTable }: HeroProps) {
           transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1], delay: 0.3 }}
           className="lg:col-span-4 text-left lg:border-l lg:border-white/10 lg:pl-10 space-y-8 py-4"
         >
-          <p className="text-xs sm:text-sm text-[#8E8E93] font-sans font-light leading-relaxed tracking-wide">
+          <p className="text-base font-semibold text-[#8E8E93] font-sans font-light leading-relaxed tracking-wide">
             Where multi-generational Mississippi heritage meets contemporary culinary artistry. We honor classic Southern flavors through meticulous wood-fired techniques and hand-selected seasonal heirloom ingredients.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
             <button
               onClick={onExploreMenu}
-              className="px-8 py-4 bg-white text-[#0A0A0A] font-sans text-[10px] tracking-[0.25em] hover:bg-[#AEAED2] transition-colors duration-300 font-bold uppercase cursor-pointer"
+              className="px-8 py-4 bg-white text-[#0A0A0A] font-sans text-base font-semibold min-h-[44px] font-semibold tracking-wider tracking-[0.25em] hover:bg-[#AEAED2] transition-colors duration-300 font-bold uppercase cursor-pointer"
             >
               EXPLORE THE MENU
             </button>
             <button
               onClick={onReserveTable}
-              className="px-8 py-4 border border-white/10 hover:border-white text-white bg-black/40 backdrop-blur-sm transition-colors duration-300 font-sans text-[10px] tracking-[0.25em] font-semibold uppercase cursor-pointer"
+              className="px-8 py-4 border border-white/10 hover:border-white text-white bg-black/40 backdrop-blur-sm transition-colors duration-300 font-sans text-base font-semibold min-h-[44px] font-semibold tracking-wider tracking-[0.25em] font-semibold uppercase cursor-pointer"
             >
               RESERVE A TABLE
             </button>
@@ -83,7 +83,7 @@ export function Hero({ onExploreMenu, onReserveTable }: HeroProps) {
       {/* Minimal Accent Bar */}
       <div className="relative z-10 w-full px-6 md:px-[8vw] mt-10">
         <div className="flex justify-between items-center border-t border-white/5 pt-8 text-[#8E8E93]">
-          <div className="font-serif text-[11px] italic text-[#AEAED2]">
+          <div className="font-serif text-xs font-semibold italic text-[#AEAED2]">
             Dinner Service &bull; Chicago, IL
           </div>
           <button

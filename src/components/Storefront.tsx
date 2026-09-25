@@ -80,7 +80,7 @@ export function Storefront() {
                 <h3 className="font-sans text-xs tracking-[0.25em] text-[#AEAED2] uppercase font-bold">
                   {category.title}
                 </h3>
-                <p className="text-[11px] text-[#8E8E93] font-sans font-light italic mt-1 font-mono tracking-wider">
+                <p className="text-xs font-semibold text-[#8E8E93] font-sans font-light italic mt-1 font-mono tracking-wider">
                   &bull; {category.subtitle}
                 </p>
               </div>
@@ -100,13 +100,13 @@ export function Storefront() {
                       </span>
                       {/* Beautiful Print-style dots filler */}
                       <span className="flex-1 border-b border-dotted border-white/10 mx-2" />
-                      <span className="font-mono text-xs sm:text-sm text-white tracking-widest font-light">
+                      <span className="font-mono text-base font-semibold text-white tracking-widest font-light">
                         ${item.price}
                       </span>
                     </div>
 
                     {/* Appetizing Sensory Description */}
-                    <p className="text-[11px] sm:text-xs text-[#8E8E93] font-serif italic font-light leading-relaxed tracking-wide group-hover:text-[#AEAED2]/90 transition-colors duration-300 pl-1 mt-1">
+                    <p className="text-xs font-semibold sm:text-xs text-[#8E8E93] font-serif italic font-light leading-relaxed tracking-wide group-hover:text-[#AEAED2]/90 transition-colors duration-300 pl-1 mt-1">
                       {item.subtitle}
                     </p>
                   </div>

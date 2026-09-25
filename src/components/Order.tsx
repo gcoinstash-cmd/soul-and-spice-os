@@ -68,7 +68,7 @@ export function Order() {
 
             {/* Structured Hospitality Services */}
             <div className="space-y-6 pt-8 border-t border-white/5">
-              <span className="text-[#AEAED2] font-sans text-[10px] tracking-[0.25em] uppercase font-bold block mb-4">
+              <span className="text-[#AEAED2] font-sans text-xs font-semibold tracking-wider tracking-[0.25em] uppercase font-bold block mb-4">
                 CULINARY SERVICE ARRANGEMENTS
               </span>
 
@@ -76,7 +76,7 @@ export function Order() {
               <div className="flex items-start space-x-4">
                 <span className="font-serif text-xs text-[#AEAED2] italic font-semibold mt-0.5">01/</span>
                 <div>
-                  <h4 className="font-sans text-[10px] tracking-[0.2em] uppercase text-white font-semibold mb-1">
+                  <h4 className="font-sans text-xs font-semibold tracking-wider tracking-[0.2em] uppercase text-white font-semibold mb-1">
                     ESTATE PRIVATE CHEF STAGING
                   </h4>
                   <p className="text-xs text-[#8E8E93] font-sans font-light leading-relaxed">
@@ -89,7 +89,7 @@ export function Order() {
               <div className="flex items-start space-x-4 border-t border-white/5 pt-5">
                 <span className="font-serif text-xs text-[#AEAED2] italic font-semibold mt-0.5">02/</span>
                 <div>
-                  <h4 className="font-sans text-[10px] tracking-[0.2em] uppercase text-white font-semibold mb-1">
+                  <h4 className="font-sans text-xs font-semibold tracking-wider tracking-[0.2em] uppercase text-white font-semibold mb-1">
                     PRISTINE THERMAL COLLECTION
                   </h4>
                   <p className="text-xs text-[#8E8E93] font-sans font-light leading-relaxed">
@@ -102,7 +102,7 @@ export function Order() {
               <div className="flex items-start space-x-4 border-t border-white/5 pt-5">
                 <span className="font-serif text-xs text-[#AEAED2] italic font-semibold mt-0.5">03/</span>
                 <div>
-                  <h4 className="font-sans text-[10px] tracking-[0.2em] uppercase text-white font-semibold mb-1">
+                  <h4 className="font-sans text-xs font-semibold tracking-wider tracking-[0.2em] uppercase text-white font-semibold mb-1">
                     BOURBON &amp; BOTANICAL PAIRINGS
                   </h4>
                   <p className="text-xs text-[#8E8E93] font-sans font-light leading-relaxed">
@@ -129,7 +129,7 @@ export function Order() {
                     <Check className="w-4 h-4" />
                   </div>
                   <div className="space-y-6 max-w-md">
-                    <p className="font-mono text-[9px] sm:text-[10px] tracking-[0.25em] text-white leading-relaxed uppercase">
+                    <p className="font-mono text-[9px] sm:text-xs font-semibold tracking-wider tracking-[0.25em] text-white leading-relaxed uppercase">
                       INTAKE COMPLETE // SYSTEM DISPATCH CODE: SS-RESERVE-2026. OUR CULINARY CONCIERGE WILL CONTACT YOU WITHIN 12 HOURS TO CONFIRM YOUR SEATING ARRANGEMENTS.
                     </p>
                   </div>
@@ -243,7 +243,7 @@ export function Order() {
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full py-5 mt-6 bg-white text-[#0A0A0A] hover:bg-[#0A0A0A] hover:text-white border border-transparent hover:border-white font-sans text-[10px] tracking-[0.25em] font-bold uppercase transition-all duration-300 cursor-pointer"
+                    className="w-full py-5 mt-6 bg-white text-[#0A0A0A] hover:bg-[#0A0A0A] hover:text-white border border-transparent hover:border-white font-sans text-base font-semibold min-h-[44px] font-semibold tracking-wider tracking-[0.25em] font-bold uppercase transition-all duration-300 cursor-pointer"
                   >
                     {isSubmitting ? "SUBMITTING REQUEST..." : "AUTHORIZE SERVICES"}
                   </button>

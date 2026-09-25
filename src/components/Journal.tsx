@@ -41,13 +41,13 @@ export function Journal() {
 
               {/* Editorial Title / Subtitle */}
               <div className="md:col-span-6 flex flex-col justify-center">
-                <span className="font-sans text-[10px] tracking-[0.25em] text-[#AEAED2] uppercase mb-2">
+                <span className="font-sans text-xs font-semibold tracking-wider tracking-[0.25em] text-[#AEAED2] uppercase mb-2">
                   {entry.date}
                 </span>
                 <h3 className="text-xl md:text-2xl font-serif text-white group-hover:text-[#AEAED2] transition-colors duration-500 mb-2 font-medium">
                   {entry.title}
                 </h3>
-                <h4 className="font-mono text-[11px] tracking-wider text-[#8E8E93] uppercase">
+                <h4 className="font-mono text-xs font-semibold tracking-wider text-[#8E8E93] uppercase">
                   {entry.subtitle}
                 </h4>
               </div>
@@ -101,7 +101,7 @@ export function Journal() {
                 <div className="flex items-center space-x-3 mb-2">
                   <span className="font-mono text-sm text-[#AEAED2]">VOL. {selectedEntry.number}</span>
                   <span className="w-1.5 h-1.5 rounded-full bg-[#AEAED2]"></span>
-                  <span className="font-sans text-[10px] tracking-[0.25em] text-[#8E8E93] uppercase">{selectedEntry.date}</span>
+                  <span className="font-sans text-xs font-semibold tracking-wider tracking-[0.25em] text-[#8E8E93] uppercase">{selectedEntry.date}</span>
                 </div>
                 <h3 className="text-2xl md:text-4xl font-serif text-white tracking-tight mb-3">
                   {selectedEntry.title}

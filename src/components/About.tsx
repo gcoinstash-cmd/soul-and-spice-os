@@ -28,10 +28,10 @@ export function About() {
             {/* Part 1: The Art of the 24-Hour Brine */}
             <div className="space-y-4">
               <h3 className="font-serif text-xl sm:text-2xl text-white font-light tracking-wide flex items-center space-x-2">
-                <span className="font-sans text-[10px] tracking-[0.25em] text-[#AEAED2] uppercase font-bold mr-2">I //</span>
+                <span className="font-sans text-xs font-semibold tracking-wider tracking-[0.25em] text-[#AEAED2] uppercase font-bold mr-2">I //</span>
                 The Art of the 24-Hour Brine
               </h3>
-              <p className="text-xs sm:text-sm text-[#8E8E93] font-sans font-light leading-relaxed tracking-wide">
+              <p className="text-base font-semibold text-[#8E8E93] font-sans font-light leading-relaxed tracking-wide">
                 We believe that chicken, duck, and pork demand structural patience. Our wet brine process is timed flawlessly to twenty-four hours, utilizing sweet honeysuckle blossoms, roasted bay laurels, and dark molasses blocks. This method allows the proteins to hold absolute tenderness before exposure to aggressive hickory flames.
               </p>
             </div>
@@ -39,10 +39,10 @@ export function About() {
             {/* Part 2: The Smoke Archive */}
             <div className="space-y-4 pt-8 border-t border-white/5">
               <h3 className="font-serif text-xl sm:text-2xl text-white font-light tracking-wide flex items-center space-x-2">
-                <span className="font-sans text-[10px] tracking-[0.25em] text-[#AEAED2] uppercase font-bold mr-2">II //</span>
+                <span className="font-sans text-xs font-semibold tracking-wider tracking-[0.25em] text-[#AEAED2] uppercase font-bold mr-2">II //</span>
                 The Smoke Archive: Hardwood Oak &amp; Hickory
               </h3>
-              <p className="text-xs sm:text-sm text-[#8E8E93] font-sans font-light leading-relaxed tracking-wide">
+              <p className="text-base font-semibold text-[#8E8E93] font-sans font-light leading-relaxed tracking-wide">
                 Our hearth operates under scientific smoke densities. We utilize dried shagbark hickory splits to generate powerful, sweet-noted temperature spikes, balanced by hard white oak cords that provide deep, steady heat retention. This wood combination creates sweet, translucent blue smoke that finishes each provision with sensory resonance and an eye-safe woodsmoke aroma.
               </p>
             </div>

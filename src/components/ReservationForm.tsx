@@ -130,7 +130,7 @@ export function ReservationForm() {
                   <Check className="w-4 h-4" />
                 </div>
                 <div className="space-y-6 max-w-md">
-                  <p className="font-mono text-[9px] sm:text-[10px] tracking-[0.25em] text-white leading-relaxed uppercase">
+                  <p className="font-mono text-[9px] sm:text-xs font-semibold tracking-wider tracking-[0.25em] text-white leading-relaxed uppercase">
                     INTAKE COMPLETE // SYSTEM DISPATCH CODE: SS-RESERVE-2026. OUR CULINARY CONCIERGE WILL CONTACT YOU WITHIN 12 HOURS TO CONFIRM YOUR SEATING ARRANGEMENTS.
                   </p>
                 </div>
@@ -273,7 +273,7 @@ export function ReservationForm() {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full py-5 mt-6 bg-white text-[#0A0A0A] hover:bg-[#0A0A0A] hover:text-white border border-transparent hover:border-white font-sans text-[10px] tracking-[0.25em] font-bold uppercase transition-all duration-300 cursor-pointer"
+                  className="w-full py-5 mt-6 bg-white text-[#0A0A0A] hover:bg-[#0A0A0A] hover:text-white border border-transparent hover:border-white font-sans text-base font-semibold min-h-[44px] font-semibold tracking-wider tracking-[0.25em] font-bold uppercase transition-all duration-300 cursor-pointer"
                 >
                   {isSubmitting ? "PROCESSING REQUEST..." : "AUTHORIZE RESERVATION"}
                 </button>

@@ -27,7 +27,7 @@ export function Concierge() {
           <div className="p-6 text-left space-y-3 first:pl-0 last:pr-0">
             <div className="flex items-center space-x-2 text-[#AEAED2]">
               <MapPin className="w-3.5 h-3.5" />
-              <span className="font-sans text-[10px] tracking-[0.25em] uppercase font-bold">
+              <span className="font-sans text-xs font-semibold tracking-wider tracking-[0.25em] uppercase font-bold">
                 01 // OUR LOCATION
               </span>
             </div>
@@ -42,7 +42,7 @@ export function Concierge() {
           <div className="p-6 text-left space-y-3 lg:pl-10 last:pr-0">
             <div className="flex items-center space-x-2 text-[#AEAED2]">
               <Phone className="w-3.5 h-3.5" />
-              <span className="font-sans text-[10px] tracking-[0.25em] uppercase font-bold">
+              <span className="font-sans text-xs font-semibold tracking-wider tracking-[0.25em] uppercase font-bold">
                 02 // TABLE BOOKINGS &amp; INQUIRIES
               </span>
             </div>
@@ -57,7 +57,7 @@ export function Concierge() {
           <div className="p-6 text-left space-y-3 lg:pl-10 last:pr-0">
             <div className="flex items-center space-x-2 text-[#AEAED2]">
               <Clock className="w-3.5 h-3.5" />
-              <span className="font-sans text-[10px] tracking-[0.25em] uppercase font-bold">
+              <span className="font-sans text-xs font-semibold tracking-wider tracking-[0.25em] uppercase font-bold">
                 03 // DINNER SERVICE HOURS
               </span>
             </div>
@@ -72,7 +72,7 @@ export function Concierge() {
           <div className="p-6 text-left space-y-3 lg:pl-10 last:pr-0">
             <div className="flex items-center space-x-2 text-[#AEAED2]">
               <Globe className="w-3.5 h-3.5" />
-              <span className="font-sans text-[10px] tracking-[0.25em] uppercase font-bold">
+              <span className="font-sans text-xs font-semibold tracking-wider tracking-[0.25em] uppercase font-bold">
                 04 // GUEST SERVICES
               </span>
             </div>
@@ -106,7 +106,7 @@ export function Concierge() {
 
             {/* Centered coordinates tag */}
             <div className="absolute inset-0 flex flex-col items-center justify-center space-y-2 z-10">
-              <div className="p-1 px-4 border border-[#AEAED2]/40 bg-black/80 font-sans text-[10px] md:text-xs text-[#AEAED2] tracking-[0.3em] uppercase font-medium">
+              <div className="p-1 px-4 border border-[#AEAED2]/40 bg-black/80 font-sans text-xs font-semibold tracking-wider md:text-xs text-[#AEAED2] tracking-[0.3em] uppercase font-medium">
                 1100 S. MICHIGAN AVENUE &bull; CHICAGO, ILLINOIS
               </div>
               <span className="font-sans text-[8px] tracking-[0.4em] uppercase text-[#8E8E93] selection:bg-white select-none font-semibold">
