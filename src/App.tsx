@@ -63,26 +63,37 @@ export default function App() {
       <main className="w-full">
         
         {/* BLOCK 1: THE HERO MATRIX */}
-        <Hero
-          onExploreMenu={() => handleScrollTo('curation')}
-          onReserveTable={() => handleScrollTo('residency')}
-        />
+        <div id="hero" className="scroll-mt-20">
+          <Hero
+            onExploreMenu={() => handleScrollTo('curation')}
+            onReserveTable={() => handleScrollTo('residency')}
+          />
+        </div>
 
         {/* BLOCK 2: THE EDITORIAL MENU */}
-        <Storefront />
+        <div id="curation" className="scroll-mt-20">
+          <Storefront />
+        </div>
 
         {/* BLOCK 3: OUR PHILOSOPHY (The Story Section) */}
-        <About />
+        <div id="philosophy" className="scroll-mt-20">
+          <About />
+        </div>
 
         {/* BLOCK 4: PRIVATE EVENTS & CATERING */}
-        <Order />
+        <div id="order" className="scroll-mt-20">
+          <Order />
+        </div>
 
         {/* BLOCK 5: TASTING RESIDENCIES */}
-        <ReservationForm />
+        <div id="residency" className="scroll-mt-20">
+          <ReservationForm />
+        </div>
 
         {/* BLOCK 6: CONCIERGE DIRECTORY & SPATIAL MAP */}
-        <Concierge />
-
+        <div id="contact" className="scroll-mt-20">
+          <Concierge />
+        </div>
       </main>
 
       {/* Editorial Luxury Footer */}
